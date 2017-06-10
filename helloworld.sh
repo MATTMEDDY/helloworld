@@ -31,5 +31,7 @@ then
 	#compile Java Hello World code
 	echo Alright -- Java it is!
 	sleep 1
-	echo I am sorry, the Java version of this code is not ready yet
+	javac helloworld.java
+	java helloworld
+	rm helloworld.class
 fi
