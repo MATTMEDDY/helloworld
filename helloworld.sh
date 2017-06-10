@@ -25,7 +25,7 @@ then
 	#compile Python Hello World code
 	echo Alright -- Python it is!
 	sleep 1
-	echo I am sorry, the Python version of this code is not ready yet
+	python helloworld.py
 elif [ "$language" = "Java" ]
 then
 	#compile Java Hello World code
